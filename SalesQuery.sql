@@ -23,7 +23,7 @@ CREATE TABLE sales(
     rating DECIMAL(2, 1)
 );
 
---------------------------------Data cleaning---------------------------------------------------------------------
+--------------------------------Data cleaning--------------------------
 SELECT *
 FROM sales;
 
@@ -160,8 +160,8 @@ GROUP BY product_line
 ORDER BY avg_tax DESC;
 
 
--- Fetch each product line and add a column to those product 
--- line showing "Good", "Bad". Good if its greater than average sales
+-- Fetch each product line and add a column to that product 
+-- line showing "Good," "Bad". Good if it's greater than average sales
 
 SELECT 
 	AVG(quantity) AS avg_qnty
@@ -177,7 +177,7 @@ FROM sales
 GROUP BY product_line;
 
 
--- Which branch sold more products than average product sold?
+-- Which branch sold more products than the average product sold?
 SELECT 
 	branch, 
     SUM(quantity) AS qnty
@@ -203,8 +203,6 @@ FROM sales
 GROUP BY product_line
 ORDER BY avg_rating DESC;
 
--- --------------------------------------------------------------------
--- --------------------------------------------------------------------
 
 -- --------------------------------------------------------------------
 -- -------------------------- Customers -------------------------------
