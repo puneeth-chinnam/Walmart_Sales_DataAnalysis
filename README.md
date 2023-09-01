@@ -1,21 +1,20 @@
 # Walmart_Sales_DataAnalysis
-About
-This project aims to explore the Walmart Sales data to understand top performing branches and products, sales trend of of different products, customer behaviour. The aims is to study how sales strategies can be improved and optimized. The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition.
 
-"In this recruiting competition, job-seekers are provided with historical sales data for 45 Walmart stores located in different regions. Each store contains many departments, and participants must project the sales for each department in each store. To add to the challenge, selected holiday markdown events are included in the dataset. These markdowns are known to affect sales, but it is challenging to predict which departments are affected and the extent of the impact." source
+This project analyzes Walmart sales data to gain insights into the company's highest-performing stores and products, sales trends across different product categories, and customer purchasing behavior. The goal is identifying opportunities to enhance and optimize Walmart's sales strategies. The raw data was sourced from a Kaggle competition focused on forecasting Walmart sales. By studying historical sales patterns across Walmart's branches, products, and customer segments, this project aims to uncover actionable ways the retail giant can boost revenues in the future.
 
-Purposes Of The Project
-The major aim of thie project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
 
-About Data
-The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+**Purposes Of The Project**
+The major aim of the project is to gain insight into the sales data of Walmart to understand the different factors that affect sales of the different branches.
+
+**About Data**
+The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows:
 
 Column	Description	Data Type
-invoice_id	Invoice of the sales made	VARCHAR(30)
-branch	Branch at which sales were made	VARCHAR(5)
-city	The location of the branch	VARCHAR(30)
-customer_type	The type of the customer	VARCHAR(30)
-gender	Gender of the customer making purchase	VARCHAR(10)
+**invoice_id**	Invoice of the sales made	VARCHAR(30)
+**branch**	Branch at which sales were made	VARCHAR(5)
+**city**	The location of the branch	VARCHAR(30)
+**customer_type**	The type of the customer	VARCHAR(30)
+**gender**	Gender of the customer making purchase	VARCHAR(10)
 product_line	Product line of the product solf	VARCHAR(100)
 unit_price	The price of each product	DECIMAL(10, 2)
 quantity	The amount of the product sold	INT
