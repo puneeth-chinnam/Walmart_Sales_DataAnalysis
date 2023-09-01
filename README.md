@@ -133,29 +133,6 @@ Here is GitHub markdown to format the content aesthetically:
 
 10. Which day of the week has the best average ratings per branch?
 
-**Data Wrangling:** This is the first step where data inspection is done to ensure NULL values and missing values are detected and data replacement methods are used to replace missing or NULL values.
-
-Build a database
-
-A table is created, and the data is inserted.
-
-Columns with null values are selected. There are no null values in our database as in creating the tables, we set NOT NULL for each field; hence null values are filtered out.
-
-**Feature Engineering:** This will help us generate some new columns from existing ones.
-
-A new column named time_of_day is added to give insight into Morning, Afternoon, and Evening sales. This will help answer the question of when most sales are made during the day.
-
-A new column named day_name is added that contains the extracted days of the week on which the given transaction took place (Mon, Tue, Wed, Thur, Fri). This will help answer the question of which day of the week each branch is busiest.
-
-A new column named month_name is added, containing the extracted months of the year on which the given transaction took place (Jan, Feb, Mar). This could help figure out which month of the year has the most sales and profit.
-
-**Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer this project's listed questions and aims.
-
-Data Wrangling: This is the first step, where data inspection is done to detect NULL values and missing values, and data replacement methods are used to replace missing or NULL values.
-Build a database
-Create a table and insert the data.
-Select columns with null values in them. There are no null values in our database as in creating the tables; we set NOT NULL for each field; hence null values are filtered out.
-
 
 **Revenue And Profit Calculations**
 
