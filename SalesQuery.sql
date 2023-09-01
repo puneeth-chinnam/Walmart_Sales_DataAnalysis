@@ -75,9 +75,9 @@ ALTER TABLE sales ADD COLUMN month_name VARCHAR(10);
 UPDATE sales
 SET month_name = MONTHNAME(date);
 
--- --------------------------------------------------------------------
+
 -- ---------------------------- Generic ------------------------------
--- --------------------------------------------------------------------
+
 -- How many unique cities does the data have?
 SELECT 
 	DISTINCT city
@@ -89,9 +89,9 @@ SELECT
     branch
 FROM sales;
 
--- --------------------------------------------------------------------
+
 -- ---------------------------- Product -------------------------------
--- --------------------------------------------------------------------
+
 
 -- How many unique product lines does the data have?
 SELECT
@@ -204,9 +204,9 @@ GROUP BY product_line
 ORDER BY avg_rating DESC;
 
 
--- --------------------------------------------------------------------
+
 -- -------------------------- Customers -------------------------------
--- --------------------------------------------------------------------
+
 
 -- How many unique customer types does the data have?
 SELECT
@@ -299,12 +299,9 @@ GROUP BY day_name
 ORDER BY total_sales DESC;
 
 
--- --------------------------------------------------------------------
--- --------------------------------------------------------------------
 
--- --------------------------------------------------------------------
 -- ---------------------------- Sales ---------------------------------
--- --------------------------------------------------------------------
+
 
 -- Number of sales made in each time of the day per weekday 
 SELECT
@@ -325,7 +322,7 @@ FROM sales
 GROUP BY customer_type
 ORDER BY total_revenue;
 
--- Which city has the largest tax/VAT percent?
+-- Which city has the largest tax/VAT percentage?
 SELECT
 	city,
     ROUND(AVG(tax_pct), 2) AS avg_tax_pct
@@ -341,5 +338,4 @@ FROM sales
 GROUP BY customer_type
 ORDER BY total_tax;
 
--- --------------------------------------------------------------------
--- --------------------------------------------------------------------
+
