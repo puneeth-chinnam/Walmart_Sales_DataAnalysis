@@ -11,10 +11,9 @@ The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. 
 https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting
 
 **Column	Description	Data Type**
-invoice_id	Invoice of the sales made	VARCHAR(30)
-
+| invoice_id |	Invoice of the sales made |	VARCHAR(30)
+| -------------| ----------------------- | ---------|
 branch	Branch at which sales were made	VARCHAR(5)
-
 city	The location of the branch	VARCHAR(30)
 customer_type	The type of the customer	VARCHAR(30)
 gender	Gender of the customer making purchase	VARCHAR(10)
